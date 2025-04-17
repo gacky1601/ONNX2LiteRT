@@ -1,0 +1,12 @@
+[project]
+name = "ONNX2LiteRT"
+version = "0.1.0"
+description = "Seamlessly convert ONNX models to LiteRT with ease"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy==1.*",
+    "onnx-tf==1.10.0",
+    "tensorflow==2.14.1",
+    "tensorflow-probability==0.22.0",
+]
