@@ -8,7 +8,7 @@ However, there is still some model porting based on ONNX to TF.
 You need to be really careful: newer TensorFlow versions don't support TF-Addons.
 So, the version of TensorFlow should be specified.
 
-Latest supported version of TensorFlow Addons and the corresponding TensorFlow version:
+The latest supported version of TensorFlow Addons and the corresponding TensorFlow version:
 
 |tensorflow-addons|tensorflow|Python|
 |-----------------|----------|------|
