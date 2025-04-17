@@ -28,11 +28,22 @@ uv sync
 ## Usage
 
 ONNX2LiteRT
+
 ```
-uv run main.py -i <input_model_path> -o <output_model_path>`
+options:
+  -h, --help            show this help message and exit
+  -i INPUT_MODEL_PATH, --input_model_path INPUT_MODEL_PATH
+                        Path to input ONNX model
+  -o OUTPUT_MODEL_PATH, --output_model_path OUTPUT_MODEL_PATH
+                        Path to output TFLite model (default: output.tflite)
+  -q, --quantized       Enable full integer quantization
+```
+
+```
+uv run main.py -i <input_model_path> -o <output_model_path> --quantized <bool>`
 ```
 
 For example: 
 ```
-uv run main.py -i model.onnx -t LiteRT
+uv run main.py -i model.onnx -t LiteRT -quantized
 ```
