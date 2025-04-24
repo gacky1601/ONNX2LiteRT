@@ -51,3 +51,4 @@ For example:
 ```
 uv run main.py -i model.onnx -t LiteRT --quantized
 ```
+*`--quzntized` option currently support image input model only.
